@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import styles from './Header.css';
 
@@ -12,7 +12,7 @@ class Header extends Component {
 
         <section className="header-container">
           <div className="logo"><img src={logo}/>
-            <h1>Movie Finder</h1>
+            <h1>My Favorite Amps</h1>
           </div> 
           <nav>
             <ul>
@@ -20,18 +20,18 @@ class Header extends Component {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/favorites">Favorites</Link>
+                <Link to="/amps">Amps</Link>
               </li>
               <li>
-                <Link to="/search">Search Movies</Link>
+                <Link to="/about">About Me</Link>
               </li>
             </ul>
           </nav>
         </section> 
         
-        <section className="search-container">
-          {/* <Route component={Search}/> */}
-        </section>
+        {/* <section className="search-container">
+          <Route component={Search}/>
+        </section> */}
       </div>
     );
   }
