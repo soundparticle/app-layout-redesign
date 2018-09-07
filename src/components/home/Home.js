@@ -6,7 +6,7 @@ class Home extends Component {
     return (
       <div>
         <h2>
-          <p>Welcome to Movie Finder!</p>  
+          <p>Greetings Rockers and Rockettes</p>  
         </h2>
 
         <h3>

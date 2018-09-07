@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
+import logo from '../assets/amplifier.logo.png';
 import styles from './Header.css';
 
 class Header extends Component {
@@ -12,7 +12,7 @@ class Header extends Component {
 
         <section className="header-container">
           <div className="logo"><img src={logo}/>
-            <h1>My Favorite Amps</h1>
+            <h1>Notable Amps of World</h1>
           </div> 
           <nav>
             <ul>
