@@ -8,31 +8,25 @@ class Header extends Component {
   render() {
 
     return (
-      <div className={styles.header}>  
 
-        <section className="header-container">
-          <div className="logo"><img src={logo}/>
-            <h1>Notable Amps of World</h1>
-          </div> 
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/amps">Amps</Link>
-              </li>
-              <li>
-                <Link to="/about">About Me</Link>
-              </li>
-            </ul>
-          </nav>
-        </section> 
-        
-        {/* <section className="search-container">
-          <Route component={Search}/>
-        </section> */}
-      </div>
+      <header className={styles.header}>
+        <div className="logo"><img src={logo}/>
+          <h1>Notable Amps of World</h1>
+        </div> 
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/amps">Amps</Link>
+            </li>
+            <li>
+              <Link to="/about">About Me</Link>
+            </li>
+          </ul>
+        </nav>
+      </header> 
     );
   }
 }

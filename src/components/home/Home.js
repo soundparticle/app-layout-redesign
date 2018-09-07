@@ -1,22 +1,25 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
+import styles from './Home.css';
 
-class Home extends Component {
+
+class Home extends PureComponent {
 
   render() {
     return (
-      <div>
+      <section className={styles.home}>
+        
         <h2>
-          <p>Greetings Rockers and Rockettes</p>  
+          Greetings Rockers and Rockettes 
         </h2>
 
         <h3>
           <p>This is a simple little app that highlights some of my favorite amps. I&apos;ve picked these because I&apos;ve either played them before, and/or I&apos;ve recorded these in the studio as an engineer</p>
           <p>Each amp has a little summary telling you a little more bout them, including anything special of note.</p>
-          <footer>
-            <p>App created by Antreo Pukay</p>
-          </footer>
         </h3>
-      </div>
+        <footer>
+          <p>App created by Antreo Pukay</p>
+        </footer>
+      </section>
     );
   }
 }

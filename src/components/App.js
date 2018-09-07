@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
 import Home from './home/Home';
 import Amps from './amps/Amps';
 import About from './about/About';
+import styles from './App.css';
 
-class App extends Component {
+
+class App extends PureComponent {
 
   render() {
 
     return (
       <Router>
-        <div>
-          <header>
-            <Header onSearch={this.handleSearch}/>
-          </header>
-
-          <main>
+        <div className="page-container">
+          <Header/>
+          <main className={styles.app}>
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route exact path="/amps" component={Amps}/>
@@ -24,7 +23,9 @@ class App extends Component {
               <Redirect to="/home"/>
             </Switch>
           </main>
-          
+          <footer>
+            App by Antreo Pukay! 2018
+          </footer>       
         </div>
       </Router>
     );
