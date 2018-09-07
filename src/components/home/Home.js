@@ -10,9 +10,10 @@ class Home extends Component {
         </h2>
 
         <h3>
-          <p>This is a really simple web app to help you find just the right movie to watch. Just enter a search of whatever you&apos;re interested in, whether that be a certain actor, director, category, or just a subject. You can even save your favorites so you don&apos;t forget!</p>
+          <p></p>
+          {/* <p>This is a really simple web app to help you find just the right movie to watch. Just enter a search of whatever you&apos;re interested in, whether that be a certain actor, director, category, or just a subject. You can even save your favorites so you don&apos;t forget!</p> */}
           <footer>
-            <p>App created by Mark Myers and Antreo Pukay</p>
+            <p>App created by Antreo Pukay</p>
           </footer>
         </h3>
       </div>
