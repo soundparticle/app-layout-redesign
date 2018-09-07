@@ -1,7 +1,9 @@
 :local(.header) {
+
   grid-area: header;
-  border: 2px orange;
+  border: solid 4px rgb(77, 23, 0);
   width: 100%;
+  margin: 0;
   background-image: url("../assets/tolex-background.jpg");
   // margin: 0 auto;
   // background-size: cover;
@@ -20,11 +22,11 @@
     }
     
     li {
-      font-family: sans-serif;
-      background-color: rgb(255, 246, 224);
+      font-family: Copperplate, Copperplate Gothic Light, fantasy;
+      background-color: rgb(182, 233, 253);
       list-style: none;
       display: inline-block;
-      margin-left: 5px;
+      margin-bottom: 8px;
       border-radius: 25px;
       border: 1px solid  rgb(0, 63, 139);;
       padding: 10px; 
@@ -44,8 +46,6 @@
   .logo {
     display: flex;
     align-items: center;
-    // max-height: 50em;
-    // max-width: 50em;
   }
   
   > h1 {
@@ -53,11 +53,5 @@
     font-size: 14pt;
     color: white;
     text-shadow: 1px 1px 5px black;
-  }
-  
-  
-  
-
-    
-  
+  } 
 }

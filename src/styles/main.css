@@ -1,7 +1,11 @@
-@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css);
 
 * {
   box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  // border: solid 1px rgb(77, 23, 0);
 }
 .page-container {
   height: 100vh;
@@ -18,10 +22,11 @@
 }
 
 h1 {
-  color: rgba(255, 98, 0, 0.851);
-  font-size: 60px;
-  text-align: center;
-  font-family:  sans-serif;
+  color: rgb(18, 63, 211);
+  font-size: 80px;
+  justify-content: center;
+  height: auto;
+  font-family:  Copperplate, Copperplate Gothic Light, fantasy;
   
   text-shadow: 0px 3px 0px #b2a98f,
   0px 14px 10px rgba(0,0,0,0.15),
@@ -31,17 +36,33 @@ h1 {
 
 main {
   grid-area: content;
-  border: 1px solid orange;
+  // border: 1px solid orange;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 20px;
   // overflow-y: scroll;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+p {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 footer {
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.amp-image {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
 }
 
