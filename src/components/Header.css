@@ -21,7 +21,7 @@
     
     li {
       font-family: sans-serif;
-      background-color: lightcyan;
+      background-color: rgb(255, 246, 224);
       list-style: none;
       display: inline-block;
       margin-left: 5px;
@@ -41,25 +41,23 @@
     }
   }
 
-  html, body {
+  .logo {
+    display: flex;
+    align-items: center;
+    // max-height: 50em;
+    // max-width: 50em;
+  }
+  
+  > h1 {
     margin: 0;
-   }
+    font-size: 14pt;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+  
   
   
 
     
-    .logo {
-      display: flex;
-      align-items: center;
-      // max-height: 50em;
-      // max-width: 50em;
-    }
-    
-    > h1 {
-      margin: 0;
-      font-size: 14pt;
-      color: white;
-      text-shadow: 1px 1px 5px black;
-    }
   
 }

@@ -14,17 +14,15 @@ class Header extends Component {
           <h1>Notable Amps of World</h1>
         </div> 
         <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/amps">Amps</Link>
-            </li>
-            <li>
-              <Link to="/about">About Me</Link>
-            </li>
-          </ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/amps">Amps</Link>
+          </li>
+          <li>
+            <Link to="/about">About Me</Link>
+          </li> 
         </nav>
       </header> 
     );
