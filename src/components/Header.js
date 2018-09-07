@@ -11,7 +11,7 @@ class Header extends Component {
 
       <header className={styles.header}>
         <div className="logo"><img src={logo}/>
-          <h1>Amps of the Gods</h1>
+          <h1 className="header-title" >Amps of the Gods</h1>
         </div> 
         <nav>
           <li>

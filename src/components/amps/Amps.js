@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styles from './Amps.css';
 
 import hiwatt from '../../assets/hiwatt-dr103.jpg';
@@ -11,10 +10,6 @@ import superbass from '../../assets/1974-Marshall-MKII-Super-Bass.jpg';
 
 
 export default class Amps extends Component {
-
-  static propTypes = {
-    movies: PropTypes.arrayOf(Object)
-  };
 
   render() {
 
