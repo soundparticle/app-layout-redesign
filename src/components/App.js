@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
 import Home from './home/Home';
-import Amps from './movies/Amps';
-import About from './favorites/About';
+import Amps from './amps/Amps';
+import About from './about/About';
 
 class App extends Component {
 

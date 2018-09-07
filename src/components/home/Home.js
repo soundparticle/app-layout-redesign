@@ -10,8 +10,8 @@ class Home extends Component {
         </h2>
 
         <h3>
-          <p></p>
-          {/* <p>This is a really simple web app to help you find just the right movie to watch. Just enter a search of whatever you&apos;re interested in, whether that be a certain actor, director, category, or just a subject. You can even save your favorites so you don&apos;t forget!</p> */}
+          <p>This is a simple little app that highlights some of my favorite amps. I&apos;ve picked these because I&apos;ve either played them before, and/or I&apos;ve recorded these in the studio as an engineer</p>
+          <p>Each amp has a little summary telling you a little more bout them, including anything special of note.</p>
           <footer>
             <p>App created by Antreo Pukay</p>
           </footer>
