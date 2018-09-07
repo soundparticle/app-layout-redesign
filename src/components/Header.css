@@ -1,11 +1,11 @@
 :local(.header) {
   grid-area: header;
   border: 2px orange;
-  
-  background-image: url("../assets/Blonde-Tolex.jpg");
-  background-size: cover;
+  width: 100%;
+  background-image: url("../assets/tolex-background.jpg");
+  // margin: 0 auto;
+  // background-size: cover;
   // background-size: 100% 100%;
-  margin: 0 auto;
   // padding: 50px;
   // display: flex;
   // align-items: center;
